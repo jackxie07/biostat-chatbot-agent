@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "AnalysisMethod": "ANCOVA",
+        "Parameters": {
+            "Endpoint": {
+                "Name": "Endpoint",
+                "ReturnVariable": "EPTNM",
+                "Scope": "Required",
+                "Order": 1
+            },
+            "Population": {
+                "Name": "Population",
+                "ReturnVariable": "POPU",
+                "Scope": "Required",
+                "Order": 2
+            },
+            "ResponseVariable": {
+                "Name": "Response Variable",
+                "ReturnVariable": "RSPVAR",
+                "Scope": "Required",
+                "ValidValues": [
+                    "AVAL",
+                    "CHG",
+                    "PCHG"
+                ],
+                "Order": 3
+            },
+            "Covariate": {
+                "Name": "Covariate",
+                "ReturnVariable": "COVARS",
+                "Scope": "Required",
+                "Order": 4
+            }
+        }
+    },
+    "required": ["Endpoint", "Population", "ResponseVariable", "Covariate"],
+    "additionalProperties": false
+}

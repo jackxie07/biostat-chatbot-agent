@@ -1,0 +1,17 @@
+[
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  }
+]

@@ -1,0 +1,2077 @@
+[
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "ADURN",
+    "variable_label": "AE Duration (N)"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "ADURU",
+    "variable_label": "AE Duration Units"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AEACN",
+    "variable_label": "Action Taken with Study Treatment"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AEBODSYS",
+    "variable_label": "Body System or Organ Class"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AEDECOD",
+    "variable_label": "Dictionary-Derived Term"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AEHLGT",
+    "variable_label": "High Level Group Term"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AEHLGTCD",
+    "variable_label": "High Level Group Term Code"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AEHLT",
+    "variable_label": "High Level Term"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AEHLTCD",
+    "variable_label": "High Level Term Code"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AELLT",
+    "variable_label": "Lowest Level Term"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AELLTCD",
+    "variable_label": "Lowest Level Term Code"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AENDT",
+    "variable_label": "Analysis End Date"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AENDY",
+    "variable_label": "Analysis End Relative Day"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AEOUT",
+    "variable_label": "Outcome of Adverse Event"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AEPTCD",
+    "variable_label": "Preferred Term Code"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AEREL",
+    "variable_label": "Causality"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESCAN",
+    "variable_label": "Involves Cancer"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESCONG",
+    "variable_label": "Congenital Anomaly or Birth Defect"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESDISAB",
+    "variable_label": "Persist or Signif Disability/Incapacity"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESDTH",
+    "variable_label": "Results in Death"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESEQ",
+    "variable_label": "Sequence Number"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESER",
+    "variable_label": "Serious Event"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESEV",
+    "variable_label": "Severity/Intensity"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESHOSP",
+    "variable_label": "Requires or Prolongs Hospitalization"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESLIFE",
+    "variable_label": "Is Life Threatening"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESOC",
+    "variable_label": "Primary System Organ Class"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESOCCD",
+    "variable_label": "Primary System Organ Class Code"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AESOD",
+    "variable_label": "Occurred with Overdose"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AETERM",
+    "variable_label": "Reported Term for the Adverse Event"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AGE",
+    "variable_label": "Age"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AGEGR1N",
+    "variable_label": "Pooled Age Group 1 (N)"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AOCC01FL",
+    "variable_label": "1st Occurrence 01 Flag for CQ01"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AOCC02FL",
+    "variable_label": "1st Occurrence 02 Flag for Serious"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AOCC03FL",
+    "variable_label": "1st Occurrence 03 Flag for Serious SOC"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AOCC04FL",
+    "variable_label": "1st Occurrence 04 Flag for Serious PT"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AOCCFL",
+    "variable_label": "1st Occurrence of Any AE Flag"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AOCCPFL",
+    "variable_label": "1st Occurrence of Preferred Term Flag"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "AOCCSFL",
+    "variable_label": "1st Occurrence of SOC Flag"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "ASTDT",
+    "variable_label": "Analysis Start Date"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "ASTDTF",
+    "variable_label": "Analysis Start Date Imputation Flag"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "ASTDY",
+    "variable_label": "Analysis Start Relative Day"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "CQ01NAM",
+    "variable_label": "Customized Query 01 Name"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "RACEN",
+    "variable_label": "Race (N)"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "SAFFL",
+    "variable_label": "Safety Population Flag"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "SITEID",
+    "variable_label": "Study Site Identifier"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "STUDYID",
+    "variable_label": "Study Identifier"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "TRTA",
+    "variable_label": "Actual Treatment"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "TRTAN",
+    "variable_label": "Actual Treatment (N)"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "TRTEDT",
+    "variable_label": "Date of Last Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "TRTEMFL",
+    "variable_label": "Treatment Emergent Analysis Flag"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "TRTSDT",
+    "variable_label": "Date of First Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADAE",
+    "variable_name": "USUBJID",
+    "variable_label": "Unique Subject Identifier"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "A1HI",
+    "variable_label": "Analysis Range 1 Upper Limit"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "A1LO",
+    "variable_label": "Analysis Range 1 Lower Limit"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "ABLFL",
+    "variable_label": "Baseline Record Flag"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "ADT",
+    "variable_label": "Analysis Date"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "ADY",
+    "variable_label": "Analysis Relative Day"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "AENTMTFL",
+    "variable_label": "Last value in treatment visit"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "AGE",
+    "variable_label": "Age"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "AGEGR1N",
+    "variable_label": "Pooled Age Group 1 (N)"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "ALBTRVAL",
+    "variable_label": "Amount Threshold Range"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "ANL01FL",
+    "variable_label": "Analysis Record Flag 1"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "ANRIND",
+    "variable_label": "Analysis Reference Range Indicator"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "AVAL",
+    "variable_label": "Analysis Value"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "AVISIT",
+    "variable_label": "Analysis Visit"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "AVISITN",
+    "variable_label": "Analysis Visit (N)"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "BASE",
+    "variable_label": "Baseline Value"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "BNRIND",
+    "variable_label": "Baseline Reference Range Indicator"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "BR2A1HI",
+    "variable_label": "Base Ratio to Analysis Range 1 Upper Lim"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "BR2A1LO",
+    "variable_label": "Base Ratio to Analysis Range 1 Lower Lim"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "CHG",
+    "variable_label": "Change from Baseline"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "COMP24FL",
+    "variable_label": "Completers of Week 24 Population Flag"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "DSRAEFL",
+    "variable_label": "Discontinued due to AE?"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "LBNRIND",
+    "variable_label": "Reference Range Indicator"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "LBSEQ",
+    "variable_label": "Sequence Number"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "LBSTRESN",
+    "variable_label": "Numeric Result/Finding in Standard Units"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "PARAM",
+    "variable_label": "Parameter"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "PARAMCD",
+    "variable_label": "Parameter Code"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "PARAMN",
+    "variable_label": "Parameter (N)"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "PARCAT1",
+    "variable_label": "Parameter Category 1"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "R2A1HI",
+    "variable_label": "Ratio to Analysis Range 1 Upper Limit"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "R2A1LO",
+    "variable_label": "Ratio to Analysis Range 1 Lower Limit"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "RACEN",
+    "variable_label": "Race (N)"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "SAFFL",
+    "variable_label": "Safety Population Flag"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "STUDYID",
+    "variable_label": "Study Identifier"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "SUBJID",
+    "variable_label": "Subject Identifier for the Study"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "TRTA",
+    "variable_label": "Actual Treatment"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "TRTAN",
+    "variable_label": "Actual Treatment (N)"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "TRTEDT",
+    "variable_label": "Date of Last Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "TRTP",
+    "variable_label": "Planned Treatment"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "TRTPN",
+    "variable_label": "Planned Treatment (N)"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "TRTSDT",
+    "variable_label": "Date of First Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "USUBJID",
+    "variable_label": "Unique Subject Identifier"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "VISIT",
+    "variable_label": "Visit Name"
+  },
+  {
+    "dataset_name": "ADLBC",
+    "variable_name": "VISITNUM",
+    "variable_label": "Visit Number"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "A1HI",
+    "variable_label": "Analysis Range 1 Upper Limit"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "A1LO",
+    "variable_label": "Analysis Range 1 Lower Limit"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "ABLFL",
+    "variable_label": "Baseline Record Flag"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "ADT",
+    "variable_label": "Analysis Date"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "ADY",
+    "variable_label": "Analysis Relative Day"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "AENTMTFL",
+    "variable_label": "Last value in treatment visit"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "AGE",
+    "variable_label": "Age"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "AGEGR1N",
+    "variable_label": "Pooled Age Group 1 (N)"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "ALBTRVAL",
+    "variable_label": "Amount Threshold Range"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "ANL01FL",
+    "variable_label": "Analysis Record Flag 1"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "ANRIND",
+    "variable_label": "Analysis Reference Range Indicator"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "AVAL",
+    "variable_label": "Analysis Value"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "AVISIT",
+    "variable_label": "Analysis Visit"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "AVISITN",
+    "variable_label": "Analysis Visit (N)"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "BASE",
+    "variable_label": "Baseline Value"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "BNRIND",
+    "variable_label": "Baseline Reference Range Indicator"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "BR2A1HI",
+    "variable_label": "Base Ratio to Analysis Range 1 Upper Lim"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "BR2A1LO",
+    "variable_label": "Base Ratio to Analysis Range 1 Lower Lim"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "CHG",
+    "variable_label": "Change from Baseline"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "COMP24FL",
+    "variable_label": "Completers of Week 24 Population Flag"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "DSRAEFL",
+    "variable_label": "Discontinued due to AE?"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "LBNRIND",
+    "variable_label": "Reference Range Indicator"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "LBSEQ",
+    "variable_label": "Sequence Number"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "LBSTRESN",
+    "variable_label": "Numeric Result/Finding in Standard Units"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "PARAM",
+    "variable_label": "Parameter"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "PARAMCD",
+    "variable_label": "Parameter Code"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "PARAMN",
+    "variable_label": "Parameter (N)"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "PARCAT1",
+    "variable_label": "Parameter Category 1"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "R2A1HI",
+    "variable_label": "Ratio to Analysis Range 1 Upper Limit"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "R2A1LO",
+    "variable_label": "Ratio to Analysis Range 1 Lower Limit"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "RACEN",
+    "variable_label": "Race (N)"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "SAFFL",
+    "variable_label": "Safety Population Flag"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "STUDYID",
+    "variable_label": "Study Identifier"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "SUBJID",
+    "variable_label": "Subject Identifier for the Study"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "TRTA",
+    "variable_label": "Actual Treatment"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "TRTAN",
+    "variable_label": "Actual Treatment (N)"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "TRTEDT",
+    "variable_label": "Date of Last Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "TRTP",
+    "variable_label": "Planned Treatment"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "TRTPN",
+    "variable_label": "Planned Treatment (N)"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "TRTSDT",
+    "variable_label": "Date of First Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "USUBJID",
+    "variable_label": "Unique Subject Identifier"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "VISIT",
+    "variable_label": "Visit Name"
+  },
+  {
+    "dataset_name": "ADLBH",
+    "variable_name": "VISITNUM",
+    "variable_label": "Visit Number"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "A1HI",
+    "variable_label": "Analysis Range 1 Upper Limit"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "A1LO",
+    "variable_label": "Analysis Range 1 Lower Limit"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "ABLFL",
+    "variable_label": "Baseline Record Flag"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "ADT",
+    "variable_label": "Analysis Date"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "ADY",
+    "variable_label": "Analysis Relative Day"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "AGE",
+    "variable_label": "Age"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "AGEGR1N",
+    "variable_label": "Pooled Age Group 1 (N)"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "AVAL",
+    "variable_label": "Analysis Value"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "AVISIT",
+    "variable_label": "Analysis Visit"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "AVISITN",
+    "variable_label": "Analysis Visit (N)"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "BASE",
+    "variable_label": "Baseline Value"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "BR2A1HI",
+    "variable_label": "Base Ratio to Analysis Range 1 Upper Lim"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "BR2A1LO",
+    "variable_label": "Base Ratio to Analysis Range 1 Lower Lim"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "COMP24FL",
+    "variable_label": "Completers of Week 24 Population Flag"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "CRIT1",
+    "variable_label": "Analysis Criterion 1"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "CRIT1FL",
+    "variable_label": "Criterion 1 Evaluation Result Flag"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "CRIT1FN",
+    "variable_label": "Criterion 1 Evaluation Result Flag (N)"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "DSRAEFL",
+    "variable_label": "Discontinued due to AE?"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "PARAM",
+    "variable_label": "Parameter"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "PARAMCD",
+    "variable_label": "Parameter Code"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "PARAMN",
+    "variable_label": "Parameter (N)"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "PARAMTYP",
+    "variable_label": "Parameter Type"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "PARCAT1",
+    "variable_label": "Parameter Category 1"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "R2A1HI",
+    "variable_label": "Ratio to Analysis Range 1 Upper Limit"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "R2A1LO",
+    "variable_label": "Ratio to Analysis Range 1 Lower Limit"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "RACEN",
+    "variable_label": "Race (N)"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "SAFFL",
+    "variable_label": "Safety Population Flag"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "SHIFT1",
+    "variable_label": "Shift 1"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "SHIFT1N",
+    "variable_label": "Shift 1 (N)"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "STUDYID",
+    "variable_label": "Study Identifier"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "SUBJID",
+    "variable_label": "Subject Identifier for the Study"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "TRTA",
+    "variable_label": "Actual Treatment"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "TRTAN",
+    "variable_label": "Actual Treatment (N)"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "TRTEDT",
+    "variable_label": "Date of Last Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "TRTP",
+    "variable_label": "Planned Treatment"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "TRTPN",
+    "variable_label": "Planned Treatment (N)"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "TRTSDT",
+    "variable_label": "Date of First Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "USUBJID",
+    "variable_label": "Unique Subject Identifier"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "VISIT",
+    "variable_label": "Visit Name"
+  },
+  {
+    "dataset_name": "ADLBHY",
+    "variable_name": "VISITNUM",
+    "variable_label": "Visit Number"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "ABLFL",
+    "variable_label": "ABLFL"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "ADT",
+    "variable_label": "Analysis Date"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "ADY",
+    "variable_label": "Analysis Relative Day"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AGE",
+    "variable_label": "Age"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AGEGR1N",
+    "variable_label": "Pooled Age Group 1 (N)"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "ANL01FL",
+    "variable_label": "Analysis Record Flag 01"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AVAL",
+    "variable_label": "Analysis Value"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AVISIT",
+    "variable_label": "Analysis Visit"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AVISITN",
+    "variable_label": "Analysis Visit (N)"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AWHI",
+    "variable_label": "Analysis Window Ending Timepoint"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AWLO",
+    "variable_label": "Analysis Window Beginning Timepoint"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AWRANGE",
+    "variable_label": "Analysis Window Valid Relative Range"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AWTARGET",
+    "variable_label": "Analysis Window Target"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AWTDIFF",
+    "variable_label": "Analysis Window Diff from Target"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "AWU",
+    "variable_label": "Analysis Window Unit"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "BASE",
+    "variable_label": "Baseline Value"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "CHG",
+    "variable_label": "Baseline Value"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "COMP24FL",
+    "variable_label": "Completers of Week 24 Population Flag"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "DTYPE",
+    "variable_label": "Derivation Type"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "EFFFL",
+    "variable_label": "Efficacy Population Flag"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "ITTFL",
+    "variable_label": "Intent-to-Treat Population Flag"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "PARAM",
+    "variable_label": "Parameter"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "PARAMCD",
+    "variable_label": "Parameter Code"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "PARAMN",
+    "variable_label": "Parameter (N)"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "PCHG",
+    "variable_label": "Percent Change from Baseline"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "QSSEQ",
+    "variable_label": "Sequence Number"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "RACEN",
+    "variable_label": "Race (N)"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "SITEGR1",
+    "variable_label": "Pooled Site Group 1"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "SITEID",
+    "variable_label": "Study Site Identifier"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "STUDYID",
+    "variable_label": "Study Identifier"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "TRTEDT",
+    "variable_label": "Date of Last Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "TRTP",
+    "variable_label": "Planned Treatment"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "TRTPN",
+    "variable_label": "Planned Treatment (N)"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "TRTSDT",
+    "variable_label": "Date of First Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "USUBJID",
+    "variable_label": "Unique Subject Identifier"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "VISIT",
+    "variable_label": "Visit Name"
+  },
+  {
+    "dataset_name": "ADQSADAS",
+    "variable_name": "VISITNUM",
+    "variable_label": "Visit Number"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "ADT",
+    "variable_label": "Analysis Date"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "ADY",
+    "variable_label": "Analysis Relative Day"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AGE",
+    "variable_label": "Age"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AGEGR1N",
+    "variable_label": "Pooled Age Group 1 (N)"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "ANL01FL",
+    "variable_label": "Analysis Record Flag 01"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AVAL",
+    "variable_label": "Analysis Value"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AVISIT",
+    "variable_label": "Analysis Visit"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AVISITN",
+    "variable_label": "Analysis Visit (N)"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AWHI",
+    "variable_label": "Analysis Window Ending Timepoint"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AWLO",
+    "variable_label": "Analysis Window Beginning Timepoint"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AWRANGE",
+    "variable_label": "Analysis Window Valid Relative Range"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AWTARGET",
+    "variable_label": "Analysis Window Target"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AWTDIFF",
+    "variable_label": "Analysis Window Diff from Target"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "AWU",
+    "variable_label": "Analysis Window Unit"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "COMP24FL",
+    "variable_label": "Completers of Week 24 Population Flag"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "DTYPE",
+    "variable_label": "Derivation Type"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "EFFFL",
+    "variable_label": "Efficacy Population Flag"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "ITTFL",
+    "variable_label": "Intent-to-Treat Population Flag"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "PARAM",
+    "variable_label": "Parameter"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "PARAMCD",
+    "variable_label": "Parameter Code"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "PARAMN",
+    "variable_label": "Parameter (N)"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "QSSEQ",
+    "variable_label": "Sequence Number"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "RACEN",
+    "variable_label": "Race (N)"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "SITEGR1",
+    "variable_label": "Pooled Site Group 1"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "SITEID",
+    "variable_label": "Study Site Identifier"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "STUDYID",
+    "variable_label": "Study Identifier"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "TRTEDT",
+    "variable_label": "Date of Last Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "TRTP",
+    "variable_label": "Planned Treatment"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "TRTPN",
+    "variable_label": "Planned Treatment (N)"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "TRTSDT",
+    "variable_label": "Date of First Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "USUBJID",
+    "variable_label": "Unique Subject Identifier"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "VISIT",
+    "variable_label": "Visit Name"
+  },
+  {
+    "dataset_name": "ADQSCIBC",
+    "variable_name": "VISITNUM",
+    "variable_label": "Visit Number"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "ABLFL",
+    "variable_label": "Analysis Baseline Flag"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "ADT",
+    "variable_label": "Analysis Date"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "ADY",
+    "variable_label": "Analysis Relative Day"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AGE",
+    "variable_label": "Age"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AGEGR1N",
+    "variable_label": "Pooled Age Group 1 (N)"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "ANL01FL",
+    "variable_label": "Analysis Record Flag 01"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AVAL",
+    "variable_label": "Analysis Value"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AVISIT",
+    "variable_label": "Analysis Visit"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AVISITN",
+    "variable_label": "Analysis Visit (N)"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AWHI",
+    "variable_label": "Analysis Window Ending Timepoint"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AWLO",
+    "variable_label": "Analysis Window Beginning Timepoint"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AWRANGE",
+    "variable_label": "Analysis Window Valid Relative Range"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AWTARGET",
+    "variable_label": "Analysis Window Target"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AWTDIFF",
+    "variable_label": "Analysis Window Diff from Target"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AWU",
+    "variable_label": "Analysis Window Unit"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "BASE",
+    "variable_label": "Baseline Value"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "CHG",
+    "variable_label": "Change from Baseline"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "COMP24FL",
+    "variable_label": "Completers of Week 24 Population Flag"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "DTYPE",
+    "variable_label": "Derivation Type"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "EFFFL",
+    "variable_label": "Efficacy Population Flag"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "ITTFL",
+    "variable_label": "Intent-to-Treat Population Flag"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "PARAM",
+    "variable_label": "Parameter"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "PARAMCD",
+    "variable_label": "Parameter Code"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "PARAMN",
+    "variable_label": "Parameter (N)"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "PARAMTYP",
+    "variable_label": "Parameter Type"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "PCHG",
+    "variable_label": "Percent Change from Baseline"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "QSSEQ",
+    "variable_label": "Sequence Number"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "RACEN",
+    "variable_label": "Race (N)"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "SITEGR1",
+    "variable_label": "Pooled Site Group 1"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "SITEID",
+    "variable_label": "Study Site Identifier"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "STUDYID",
+    "variable_label": "Study Identifier"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "TRTEDT",
+    "variable_label": "Date of Last Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "TRTP",
+    "variable_label": "Planned Treatment"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "TRTPN",
+    "variable_label": "Planned Treatment (N)"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "TRTSDT",
+    "variable_label": "Date of First Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "USUBJID",
+    "variable_label": "Unique Subject Identifier"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "VISIT",
+    "variable_label": "Visit Name"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "VISITNUM",
+    "variable_label": "Visit Number"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "AGE",
+    "variable_label": "Age"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "AGEGR1N",
+    "variable_label": "Pooled Age Group 1 (N)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "AGEU",
+    "variable_label": "Age Units"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "ARM",
+    "variable_label": "Description of Planned Arm"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "AVGDD",
+    "variable_label": "Avg Daily Dose (as planned)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "BMIBL",
+    "variable_label": "Baseline BMI (kg/m^2)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "BMIBLGR1",
+    "variable_label": "Pooled Baseline BMI Group 1"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "COMP16FL",
+    "variable_label": "Completers of Week 16 Population Flag"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "COMP24FL",
+    "variable_label": "Completers of Week 24 Population Flag"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "COMP8FL",
+    "variable_label": "Completers of Week 8 Population Flag"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "CUMDOSE",
+    "variable_label": "Cumulative Dose (as planned)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "DCDECOD",
+    "variable_label": "Standardized Disposition Term"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "DCREASCD",
+    "variable_label": "Reason for Discontinuation"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "DISCONFL",
+    "variable_label": "Did the Subject Discontinue the Study?"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "DISONSDT",
+    "variable_label": "Date of Onset of Disease"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "DSRAEFL",
+    "variable_label": "Discontinued due to AE?"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "DTHFL",
+    "variable_label": "Subject Died?"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "DURDIS",
+    "variable_label": "Duration of Disease (Months)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "DURDSGR1",
+    "variable_label": "Pooled Disease Duration Group 1"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "EDUCLVL",
+    "variable_label": "Years of Education"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "EFFFL",
+    "variable_label": "Efficacy Population Flag"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "ETHNIC",
+    "variable_label": "Ethnicity"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "HEIGHTBL",
+    "variable_label": "Baseline Height (cm)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "ITTFL",
+    "variable_label": "Intent-To-Treat Population Flag"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "MMSETOT",
+    "variable_label": "MMSE Total"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "RACEN",
+    "variable_label": "Race (N)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "RFENDT",
+    "variable_label": "Date of Discontinuation/Completion"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "RFENDTC",
+    "variable_label": "Subject Reference End Date/Time"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "RFSTDTC",
+    "variable_label": "Subject Reference Start Date/Time"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "SAFFL",
+    "variable_label": "Safety Population Flag"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "SITEGR1",
+    "variable_label": "Pooled Site Group 1"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "SITEID",
+    "variable_label": "Study Site Identifier"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "STUDYID",
+    "variable_label": "Study Identifier"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "SUBJID",
+    "variable_label": "Subject Identifier for the Study"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "TRT01A",
+    "variable_label": "Actual Treatment for Period 01"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "TRT01AN",
+    "variable_label": "Actual Treatment for Period 01 (N)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "TRT01P",
+    "variable_label": "Planned Treatment for Period 01"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "TRT01PN",
+    "variable_label": "Planned Treatment for Period 01 (N)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "TRTDUR",
+    "variable_label": "Duration of Treatment (days)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "TRTEDT",
+    "variable_label": "Date of Last Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "TRTSDT",
+    "variable_label": "Date of First Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "USUBJID",
+    "variable_label": "Unique Subject Identifier"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "VISIT1DT",
+    "variable_label": "Date of Visit 1"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "VISNUMEN",
+    "variable_label": "End of Trt Visit (Vis 12 or Early Term.)"
+  },
+  {
+    "dataset_name": "ADSL",
+    "variable_name": "WEIGHTBL",
+    "variable_label": "Baseline Weight (kg)"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "ADT",
+    "variable_label": "Analysis Date"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "AGE",
+    "variable_label": "Age"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "AGEGR1N",
+    "variable_label": "Pooled Age Group 1 (N)"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "AVAL",
+    "variable_label": "Analysis Value"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "CNSR",
+    "variable_label": "Censor"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "EVNTDESC",
+    "variable_label": "Event or Censoring Description"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "PARAM",
+    "variable_label": "Parameter Description"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "PARAMCD",
+    "variable_label": "Parameter Code"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "RACEN",
+    "variable_label": "Race (N)"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "SAFFL",
+    "variable_label": "Safety Population Flag"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "SITEID",
+    "variable_label": "Study Site Identifier"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "SRCDOM",
+    "variable_label": "Source Domain"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "SRCSEQ",
+    "variable_label": "Source Sequence Number"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "SRCVAR",
+    "variable_label": "Source Variable"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "STARTDT",
+    "variable_label": "Time to Event Origin Date for Subject"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "STUDYID",
+    "variable_label": "Study Identifier"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "TRTA",
+    "variable_label": "Actual Treatment"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "TRTAN",
+    "variable_label": "Actual Treatment (N)"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "TRTDUR",
+    "variable_label": "Duration of treatment (days)"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "TRTEDT",
+    "variable_label": "Date of Last Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "TRTP",
+    "variable_label": "Planned Treatment"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "TRTSDT",
+    "variable_label": "Date of First Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADTTE",
+    "variable_name": "USUBJID",
+    "variable_label": "Unique Subject Identifier"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "ABLFL",
+    "variable_label": "Baseline Record Flag"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "ADT",
+    "variable_label": "Analysis Date"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "ADY",
+    "variable_label": "Analysis Relative Day"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "AGE",
+    "variable_label": "Age"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "AGEGR1",
+    "variable_label": "Pooled Age Group 1"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "AGEGR1N",
+    "variable_label": "Pooled Age Group 1 (N)"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "ANL01FL",
+    "variable_label": "Analysis Record Flag 01"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "ATPT",
+    "variable_label": "Analysis Timepoint"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "ATPTN",
+    "variable_label": "Analysis Timepoint (N)"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "AVAL",
+    "variable_label": "Analysis Value"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "AVISIT",
+    "variable_label": "Analysis Visit"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "AVISITN",
+    "variable_label": "Analysis Visit (N)"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "BASE",
+    "variable_label": "Baseline Value"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "CHG",
+    "variable_label": "Change from Baseline"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "PARAM",
+    "variable_label": "Parameter"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "PARAMCD",
+    "variable_label": "Parameter Code"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "PARAMN",
+    "variable_label": "Parameter Number"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "PCHG",
+    "variable_label": "Percent Change from Baseline"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "RACE",
+    "variable_label": "Race"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "RACEN",
+    "variable_label": "Race (N)"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "SAFFL",
+    "variable_label": "Safety Population Flag"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "SEX",
+    "variable_label": "Sex"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "SITEID",
+    "variable_label": "Study Site Identifier"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "STUDYID",
+    "variable_label": "Study Identifier"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "TRTA",
+    "variable_label": "Actual Treatment"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "TRTAN",
+    "variable_label": "Actual Treatment (N)"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "TRTEDT",
+    "variable_label": "Date of Last Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "TRTP",
+    "variable_label": "Planned Treatment"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "TRTPN",
+    "variable_label": "Planned Treatment (N)"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "TRTSDT",
+    "variable_label": "Date of First Exposure to Treatment"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "USUBJID",
+    "variable_label": "Unique Subject Identifier"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "VISIT",
+    "variable_label": "Visit Name"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "VISITNUM",
+    "variable_label": "Visit Number"
+  },
+  {
+    "dataset_name": "ADVS",
+    "variable_name": "VSSEQ",
+    "variable_label": "Sequence Number"
+  }
+]

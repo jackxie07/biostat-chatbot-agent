@@ -1,0 +1,69 @@
+{
+    "type": "object",
+    "properties": {
+        "AnalysisMethod": "MMRM",
+        "Parameters": {
+            "Endpoint": {
+                "Name": "Endpoint",
+                "ReturnVariable": "EPTNM",
+                "Scope": "Required",
+                "Order": 1
+            },
+            "Population": {
+                "Name": "Population",
+                "ReturnVariable": "POPU",
+                "Scope": "Required",
+                "Order": 2
+            },
+            "ResponseVariable": {
+                "Name": "Response Variable",
+                "ReturnVariable": "RSPVAR",
+                "Scope": "Required",
+                "ValidValues": [
+                    "AVAL",
+                    "CHG",
+                    "PCHG"
+                ],
+                "Order": 3
+            },
+            "CovarianceMatrix": {
+                "Name": "Covariance Matrix",
+                "ReturnVariable": "COVMATRIX",
+                "Default": "VC",
+                "Scope": "Required",
+                "ValidValues": [
+                    {"Structure": "ANTE", "Description": "Antedependence"},
+                    {"Structure": "AR(X)", "Description": "Autoregressive(X)"},
+                    {"Structure": "ARCH", "Description": "Autoregressive conditional heteroskedasticity"},
+                    {"Structure": "ARH", "Description": "Heterogeneous Autoregressive"},
+                    {"Structure": "ARMA", "Description": "Autoregressive moving-average"},
+                    {"Structure": "CHOL", "Description": "Cholesky root"},
+                    {"Structure": "CS", "Description": "Compound symmetry"},
+                    {"Structure": "CSH", "Description": "Heterogeneous compound symmetry"},
+                    {"Structure": "FA", "Description": "Factor analytic"},
+                    {"Structure": "FA0", "Description": "No diagonal FA"},
+                    {"Structure": "HF", "Description": "Huynh-Feldt"},
+                    {"Structure": "LIN", "Description": "General linear"},
+                    {"Structure": "PSPLINE", "Description": "P-spline"},
+                    {"Structure": "RSMOOTH", "Description": "Radial smoother"},
+                    {"Structure": "SIMPLE", "Description": "Variance components"},
+                    {"Structure": "SP", "Description": "Spatial"},
+                    {"Structure": "TOEP", "Description": "Toeplitz"},
+                    {"Structure": "UN", "Description": "Unstructured"},
+                    {"Structure": "UNR", "Description": "Unstructured corrs"},
+                    {"Structure": "VC", "Description": "Variance components"}
+                ],
+                "Order": 4
+            },
+            "Covariate": {
+                "Name": "Covariate",
+                "ReturnVariable": "COVARS",
+                "Scope": "Required",
+                "Order": 5
+            }
+        }
+    },
+    "required": ["Endpoint", "Population", "ResponseVariable", "CovarianceMatrix", "Covariate"],
+    "additionalProperties": false
+}
+

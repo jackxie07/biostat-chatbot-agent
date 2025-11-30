@@ -1,0 +1,17 @@
+[
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "AVAL",
+    "variable_label": "Analysis Value"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "CHG",
+    "variable_label": "Change from Baseline"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "PCHG",
+    "variable_label": "Percent Change from Baseline"
+  }
+]

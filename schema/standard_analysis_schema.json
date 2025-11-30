@@ -1,0 +1,33 @@
+[
+        {
+            "AnalysisMethod": "MMRM",
+            "AnalysisDescription": "Mixed Model Repeated Measures across Visits (and subgroup)",
+            "AnalysisKeyword": ["MMRM", "mixed", "repeated measures"]
+        },
+        {
+            "AnalysisMethod": "ANCOVA",
+            "AnalysisDescription": "Analysis of Covariance by Visit (and subgroup)",
+            "AnalysisKeyword": [
+                "ANCOVA",
+                "ANOVA"
+            ]
+        },
+        {
+            "AnalysisMethod": "BINARY",
+            "AnalysisDescription": "Proportion of Response by Visit (and subgroup)",
+            "AnalysisKeyword": [
+                "binary",
+                "proportion"
+            ]
+        },
+        {
+            "AnalysisMethod": "TTE",
+            "AnalysisDescription": "Time to Event (by subgroup) with Kaplan-Meier Quantiles and Cox Regression",
+            "AnalysisKeyword": [
+                "TTE",
+                "time to event",
+                "Kaplan-Meier",
+                "Cox"
+            ]
+        }
+]

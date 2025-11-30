@@ -1,0 +1,72 @@
+[
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item A (Delusion) Score",
+    "paramcd": "NPITM01S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item B (Hallucination)  Score",
+    "paramcd": "NPITM02S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item C (Agitation/Agression) Score",
+    "paramcd": "NPITM03S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item D (Depression/Dysphoria) Score",
+    "paramcd": "NPITM04S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item E (Anxiety) Score",
+    "paramcd": "NPITM05S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item F (Eupohoria/Elation) Score",
+    "paramcd": "NPITM06S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item G (Apathy/Indifference) Score",
+    "paramcd": "NPITM07S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item H (Disinhibition) Score",
+    "paramcd": "NPITM08S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item I (Irritability/Lability) Score",
+    "paramcd": "NPITM09S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item J (Aberrant Motor Behavior) Score",
+    "paramcd": "NPITM10S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item K (Night-time Behavior) Score",
+    "paramcd": "NPITM11S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X Item L (Appetite/Eating Change) Score",
+    "paramcd": "NPITM12S"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "NPI-X (9) Total Score",
+    "paramcd": "NPTOT"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "param": "Mean NPI-X (9) Total (Week 4 to 24)",
+    "paramcd": "NPTOTMN"
+  }
+]

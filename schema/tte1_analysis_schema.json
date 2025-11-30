@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "AnalysisMethod": "TTE",
+        "Parameters": {
+            "Endpoint": {
+                "Name": "Endpoint",
+                "ReturnVariable": "EPTNM",
+                "Scope": "Required",
+                "Order": 1
+            },
+            "Population": {
+                "Name": "Population",
+                "ReturnVariable": "POPU",
+                "Scope": "Required",
+                "Order": 2
+            },
+            "Covariate": {
+                "Name": "Covariate",
+                "ReturnVariable": "COVARS",
+                "Scope": "Required",
+                "Order": 3
+            },
+            "StratificationVariable": {
+                "Name": "Stratification Variable",
+                "ReturnVariable": "STRATVAR",
+                "Scope": "Required",
+                "Order": 4
+            }
+        }
+    },
+    "required": [
+        "Endpoint",
+        "Population",
+        "Covariate",
+        "StratificationVariable"
+    ],
+    "additionalProperties": false
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "SAFFL",
+    "variable_label": "Safety Population Flag"
+  },
+  {
+    "dataset_name": "ADQSNPIX",
+    "variable_name": "ITTFL",
+    "variable_label": "Intent-to-Treat Population Flag"
+  }
+]

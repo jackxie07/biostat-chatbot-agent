@@ -1,0 +1,58 @@
+{
+    "type": "object",
+    "properties": {
+        "AnalysisMethod": "BINARY",
+        "Parameters": {
+            "Endpoint": {
+                "Name": "Endpoint",
+                "ReturnVariable": "EPTNM",
+                "Scope": "Required",
+                "Order": 1
+            },
+            "Population": {
+                "Name": "Population",
+                "ReturnVariable": "POPU",
+                "Scope": "Required",
+                "Order": 2
+            },
+            "ResponseVariable": {
+                "Name": "Response Variable",
+                "ReturnVariable": "RSPVAR",
+                "Scope": "Required",
+                "ValidValues": [
+                    "AVAL",
+                    "CHG",
+                    "PCHG"
+                ],
+                "Order": 3
+            },
+            "CIMethod": {
+                "Name": "Confidence Interval Method",
+                "ReturnVariable": "CIMETHOD",
+                "Default": "EXACT",
+                "Scope": "Required",
+                "ValidValues": [
+                    "EXACT",
+                    "CP",
+                    "WALD",
+                    "NORMAL"
+                ],
+                "Order": 4
+            },
+            "StratificationVariable": {
+                "Name": "Stratification Variable",
+                "ReturnVariable": "STRATVAR",
+                "Scope": "Required",
+                "Order": 5
+            }
+        }
+    },
+    "required": [
+        "Endpoint",
+        "Population",
+        "ResponseVariable",
+        "CIMethod",
+        "StratificationVariable"
+    ],
+    "additionalProperties": false
+}

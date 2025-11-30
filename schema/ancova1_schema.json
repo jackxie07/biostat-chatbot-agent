@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "indata": {
+            "scope": "Required",
+            "description": "Input dataset of the form <libname.dataset>",
+            "example": "INDATA = ADAM.ADQSIGA",
+            "default": ""
+        }
+    }
+}
