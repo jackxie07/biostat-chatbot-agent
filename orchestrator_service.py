@@ -1,3 +1,5 @@
+import asyncio
+
 from BiostatChatbot import BiostatChatbot, GEMINI_API_KEY
 from adk_runtime import ADKOrchestratorClient
 
@@ -19,9 +21,10 @@ class OrchestratorAgent:
         """
         if self.adk_client.configured:
             try:
-                return self.adk_client.send_message(user_input)
+                return asyncio.run(self.adk_client.send_message(user_input))
             except NotImplementedError:
-                # ADK client present but not yet implemented; fall back to local behavior
+                pass
+            except RuntimeError:
                 pass
 
         bot = self.core
