@@ -39,7 +39,7 @@ LLM-assisted chatbot that guides clinical users through defining a statistical a
    ```bash
    pip install -r requirements.txt
    ```
-   (Replace `google-adk` in `requirements.txt` with the exact ADK package name/version from the docs if it differs.)
+   (ADK is pinned to `google-adk==1.19.0`; update if a newer version is required.)
 3) Export secrets:
    - `GEMINI_API_KEY` (default LLM).
    - Optional: `GROQ_API_KEY` (for `llama3-70b-8192`).
