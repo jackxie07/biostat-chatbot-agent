@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Union
 
 BASE = Path(__file__).resolve().parent.parent / "schema"
 
@@ -10,36 +10,54 @@ async def _load_json(name: str) -> List[Dict[str, Any]]:
         return json.load(f)
 
 
-async def list_options(param: str):
-    """
-    Return allowed options for the given parameter.
+async def list_options(param: str) -> Dict[str, Any]:
+    """Return allowed options for a parameter from local schema catalogs.
+
+    Args:
+        param: Parameter name (endpoint, population, responsevariable, covariate, covariancematrix).
+
+    Returns:
+        dict: {"status": "success", "data": <list>} or {"status": "error", "error_message": "..."}.
     """
     param = param.lower()
-    if param == "endpoint":
-        return await _load_json("dataset_endpoint_schema.json")
-    if param == "population":
-        return await _load_json("dataset_population_schema.json")
-    if param == "responsevariable":
-        return await _load_json("dataset_rspvar_schema.json")
-    if param == "covariate":
-        return await _load_json("dataset_covariate_schema.json")
-    if param == "covariancematrix":
-        # Use the analysis schema to derive this in the future
-        return ["UN", "CS", "AR(1)", "TOEP"]
-    return []
+    try:
+        if param == "endpoint":
+            data = await _load_json("dataset_endpoint_schema.json")
+        elif param == "population":
+            data = await _load_json("dataset_population_schema.json")
+        elif param == "responsevariable":
+            data = await _load_json("dataset_rspvar_schema.json")
+        elif param == "covariate":
+            data = await _load_json("dataset_covariate_schema.json")
+        elif param == "covariancematrix":
+            data = ["UN", "CS", "AR(1)", "TOEP"]
+        else:
+            return {"status": "error", "error_message": f"Unsupported parameter: {param}"}
+        return {"status": "success", "data": data}
+    except Exception as exc:
+        return {"status": "error", "error_message": str(exc)}
 
 
-async def validate_param(param: str, value: Any) -> bool:
+async def validate_param(param: str, value: Any) -> Dict[str, Union[str, bool]]:
+    """Validate that a value is in the allowed options list.
+
+    Args:
+        param: Parameter name.
+        value: Value to validate.
+
+    Returns:
+        dict: {"status": "success", "data": True/False} or {"status": "error", "error_message": "..."}.
     """
-    Simple validation: checks if value is within the allowed options list.
-    """
-    options = await list_options(param)
-    if not options:
-        return False
+    options_resp = await list_options(param)
+    if options_resp.get("status") != "success":
+        return options_resp
+    options = options_resp.get("data") or []
+    is_valid = False
     if isinstance(options, list) and options and isinstance(options[0], dict):
-        # dict list: match any value in any field
         for entry in options:
             if value in entry.values():
-                return True
-        return False
-    return value in options
+                is_valid = True
+                break
+    else:
+        is_valid = value in options
+    return {"status": "success", "data": is_valid}
