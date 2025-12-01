@@ -12,11 +12,12 @@ LLM-assisted chatbot that guides clinical users through defining a statistical a
 - `app.py`: Flask entry point exposing `/` (web UI) and `/get` (chat endpoint).
 - `orchestrator_service.py`: Facade that routes messages to ADK when available or falls back to the local chatbot.
 - `BiostatChatbot.py`: Core local flow for intent detection, slot filling, validation, confirmation, and SAS execution.
-- `adk_runtime.py`: Graph/tool definitions and minimal REST client to talk to an ADK control plane.
+- `adk_runtime.py`: ADK workflow wiring using Sequential + Loop agents (Intent → Schema → Parameter Loop → Confirmation → SAS → Audit) with an in-memory runner (`InMemoryRunner`).
+- `agents.py`: Definitions for orchestrator, intent, schema loader, parameter collector, catalog, validation, confirmation, SAS execution, and audit agents using Gemini with retry options.
+- `tools/`: Domain tool stubs for schemas, catalog, validation, SAS execution, audit logging, and markdown rendering.
 - `SASConnect.py`: SAS integration via `saspy`; builds macro calls, executes, and uploads outputs.
 - `schema/`: Analysis definitions and dataset catalogs (JSON) used to validate/offer parameter options.
 - `templates/index.html`: Simple chat UI.
-- `docs/agentic-architecture.md`: Notes on mapping the local flow to a multi-agent design.
 
 ## Prerequisites
 - Python 3.10+ (Flask 3.x, httpx, groq, google-generativeai, saspy).
@@ -38,6 +39,7 @@ LLM-assisted chatbot that guides clinical users through defining a statistical a
    ```bash
    pip install -r requirements.txt
    ```
+   (Replace `google-adk` in `requirements.txt` with the exact ADK package name/version from the docs if it differs.)
 3) Export secrets:
    - `GEMINI_API_KEY` (default LLM).
    - Optional: `GROQ_API_KEY` (for `llama3-70b-8192`).
@@ -52,10 +54,12 @@ flask run
 Then open http://127.0.0.1:5000 and start chatting. The `/get` route expects a `msg` query param and returns markdown rendered to HTML in the UI.
 
 ## How It Works (local flow)
-1) `find_stat_method` matches user text to an analysis using `schema/standard_analysis_schema.json`.
-2) `set_analysis` seeds the required parameters from the analysis-specific schema (e.g., `ancova1_analysis_schema.json`).
-3) `evaluate_info` / `evaluate_info_loop` ask for missing slots one at a time, showing options from the dataset catalogs in `schema/dataset_*.json`.
-4) When all slots are filled, `update_info` asks for confirmation; on “Yes,” `execute_analysis` builds a SAS program in `generated/`, runs it via `saspy`, and `upload_file` returns the PDF URL.
+Local ADK-style workflow (InMemoryRunner):
+1) Intent → Schema Loader (sequential)
+2) Parameter loop (LoopAgent): collect/validate missing slots; Catalog + Validation tools invoked inside the loop
+3) Confirmation (sequential)
+4) SAS execution + Audit (sequential)
+Legacy flow (fallback): `find_stat_method` → `set_analysis` → `evaluate_info`/`evaluate_info_loop` → `update_info` → `execute_analysis`.
 
 ## Developing
 - Catalog JSONs in `schema/` drive allowed values; update them to change available options.
