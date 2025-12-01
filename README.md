@@ -25,6 +25,15 @@ LLM-assisted chatbot that guides clinical users through defining a statistical a
 
 ## Setup
 1) Create and activate a virtual environment.
+   ```bash
+   # macOS/Linux
+   python -m venv .venv
+   source .venv/bin/activate
+
+   # Windows (PowerShell)
+   python -m venv .venv
+   .venv\Scripts\Activate.ps1
+   ```
 2) Install dependencies:
    ```bash
    pip install -r requirements.txt
