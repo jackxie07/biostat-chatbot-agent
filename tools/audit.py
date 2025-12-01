@@ -6,7 +6,7 @@ LOG_DIR = Path("chat_history")
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def persist_session(state: Dict[str, Any]) -> str:
+async def persist_session(state: Dict[str, Any]) -> str:
     """
     Persist session state to a rolling JSON log. Returns path to the log file.
     """

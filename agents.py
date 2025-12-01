@@ -11,6 +11,7 @@ from typing import Dict, List
 
 from google.adk.agents import Agent
 from google.adk.models.google_llm import Gemini
+from google.adk.tools import FunctionTool
 from google.genai import types as genai_types
 
 import tools.audit
@@ -18,6 +19,7 @@ import tools.catalog
 import tools.render
 import tools.sas
 import tools.schemas
+import tools.state
 
 
 def _retry_options() -> genai_types.HttpRetryOptions:
@@ -46,13 +48,13 @@ def orchestrator_agent() -> Agent:
             "validation, confirmation, and SAS execution. Return concise, user-ready responses."
         ),
         tools=[
-            tools.schemas.load_standard_schema,
-            tools.schemas.load_analysis_schema,
-            tools.catalog.list_options,
-            tools.catalog.validate_param,
-            tools.sas.run_sas,
-            tools.audit.persist_session,
-            tools.render.render_markdown,
+            FunctionTool(tools.schemas.load_standard_schema, name="load_standard_schema"),
+            FunctionTool(tools.schemas.load_analysis_schema, name="load_analysis_schema"),
+            FunctionTool(tools.catalog.list_options, name="list_options"),
+            FunctionTool(tools.catalog.validate_param, name="validate_param"),
+            FunctionTool(tools.sas.run_sas, name="run_sas"),
+            FunctionTool(tools.audit.persist_session, name="persist_session"),
+            FunctionTool(tools.render.render_markdown, name="render_markdown"),
         ],
     )
 
@@ -66,7 +68,8 @@ def intent_agent() -> Agent:
             "Classify the requested analysis using standard_analysis_schema.json. "
             "Return JSON with keys analysis_method and confidence. If unknown, set analysis_method to 0."
         ),
-        tools=[tools.schemas.load_standard_schema],
+        tools=[FunctionTool(tools.schemas.load_standard_schema, name="load_standard_schema")],
+        output_key="analysis_method",
     )
 
 
@@ -79,7 +82,8 @@ def schema_loader_agent() -> Agent:
             "Load the schema for the selected AnalysisMethod. Initialize required and optional "
             "parameters and return a structured object with empty slots."
         ),
-        tools=[tools.schemas.load_analysis_schema],
+        tools=[FunctionTool(tools.schemas.load_analysis_schema, name="load_analysis_schema")],
+        output_key="analysis_detail",
     )
 
 
@@ -90,9 +94,15 @@ def parameter_collector_agent() -> Agent:
         description="Conversational slot-filler for missing parameters.",
         instruction=(
             "Ask one question at a time. Summarize known parameters, request missing ones, "
-            "and present options via the catalog tool. Maintain clarity and brevity."
+            "and present options via the catalog tool. When ask_for is empty or confirmed, "
+            "call exit_loop to end the loop. Maintain clarity and brevity."
         ),
-        tools=[tools.catalog.list_options, tools.render.render_markdown],
+        tools=[
+            FunctionTool(tools.catalog.list_options, name="list_options"),
+            FunctionTool(tools.render.render_markdown, name="render_markdown"),
+            FunctionTool(tools.state.exit_loop, name="exit_loop"),
+        ],
+        output_key="ask_for",
     )
 
 
@@ -102,7 +112,8 @@ def dataset_catalog_agent() -> Agent:
         model=_model(),
         description="Serves allowed values for dataset-driven parameters.",
         instruction="Return allowed options for Endpoint, Population, ResponseVariable, Covariate, CovarianceMatrix.",
-        tools=[tools.catalog.list_options],
+        tools=[FunctionTool(tools.catalog.list_options, name="list_options")],
+        output_key="options",
     )
 
 
@@ -115,7 +126,7 @@ def validation_agent() -> Agent:
             "Validate that provided values are in the allowed lists. Reject out-of-scope inputs, "
             "remove PII/secrets, and request re-entry when invalid."
         ),
-        tools=[tools.catalog.validate_param],
+        tools=[FunctionTool(tools.catalog.validate_param, name="validate_param")],
     )
 
 
@@ -128,7 +139,8 @@ def confirmation_agent() -> Agent:
             "Present the parameter summary and ask for explicit Yes/No to proceed. "
             "If No, collect the list of parameters to update."
         ),
-        tools=[tools.render.render_markdown],
+        tools=[FunctionTool(tools.render.render_markdown, name="render_markdown")],
+        output_key="confirmation",
     )
 
 
@@ -138,7 +150,8 @@ def sas_execution_agent() -> Agent:
         model=_model(),
         description="Generates and runs SAS macro, returns output URL.",
         instruction="Call the SAS tool with collected parameters; return the output URL or error.",
-        tools=[tools.sas.run_sas],
+        tools=[FunctionTool(tools.sas.run_sas, name="run_sas")],
+        output_key="sas_output",
     )
 
 
@@ -148,7 +161,8 @@ def audit_agent() -> Agent:
         model=_model(),
         description="Persists conversation and job metadata.",
         instruction="Persist session state, chat, and job metadata for traceability.",
-        tools=[tools.audit.persist_session],
+        tools=[FunctionTool(tools.audit.persist_session, name="persist_session")],
+        output_key="audit_log",
     )
 
 
